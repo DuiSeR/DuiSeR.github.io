@@ -26,11 +26,14 @@ a {
 .nav > ul {
   display: flex;
 }
-.nav > ul > li {
+.nav > ul > a > li {
   margin-right: 45px;
   font-weight: 500;
   line-height: 14px;
   font-weight: 500;
+}
+.nav-link {
+  color: #0e0e0e;
 }
 .nav-content {
   display: flex;
@@ -89,3 +92,119 @@ a {
 }
 
 /* section application end*/
+
+/* section service start*/
+
+.service {
+  margin-bottom: 95px;
+}
+.titles {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.title__wrapper {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+}
+.service-info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.services-info {
+  padding: 25px;
+  width: 45%;
+  margin-bottom: 15px;
+  background: url(../img-service/bg-1.svg) no-repeat center left;
+}
+
+.services-info__right {
+  background: url(../img-service/bg-2.svg) no-repeat center right;
+}
+
+.services-info__wrapper {
+  background: #f2f5fd;
+  border-radius: 100px 30px 30px 100px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.services-info__wrapper__right {
+  border-radius: 30px 100px 100px 30px;
+  justify-content: end;
+}
+
+.service-title__item {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  padding-bottom: 10px;
+}
+.service-par__item {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(14, 14, 14, 0.6);
+}
+
+.service-info__wrapper-right {
+  width: 52.7%;
+  padding-left: 20px;
+}
+.service-info__wrapper-left {
+  width: 52.7%;
+  padding-right: 20px;
+}
+
+/* section service end*/
+
+/* section stage start*/
+
+.title-stage {
+  background: url(../img-stage/bg-stage-title.png) no-repeat center center;
+  margin-bottom: 40px;
+}
+.stages {
+  background: url(../img-stage/bg-stage.png) no-repeat center center;
+  display: grid;
+  grid-template-columns: repeat(24, 1fr);
+  grid-template-rows: repeat(5, 100px);
+  row-gap: 40px;
+  padding-bottom: 145px;
+}
+.stage-info {
+  background: #f2f5fd;
+  border-radius: 30px;
+  padding: 20px 40px 20px 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.stage-info__item {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+}
+.stage-info-1 {
+  grid-column: 6/11;
+  grid-row: 1/2;
+}
+.stage-info-2 {
+  grid-row: 2/3;
+  grid-column: 16/22;
+}
+.stage-info-3 {
+  grid-row: 3/4;
+  grid-column: 3/11;
+}
+.stage-info-4 {
+  grid-row: 4/5;
+  grid-column: 16/24;
+}
+.stage-info-5 {
+  grid-row: 5/6;
+  grid-column: 5/11;
+}
