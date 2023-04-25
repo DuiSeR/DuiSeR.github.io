@@ -38,8 +38,8 @@ a {
   color: #0e0e0e;
   margin-right: 45px;
 }
-.nav-link:first-child {
-  /* color: #7e99ec; */
+.nav-link:last-child {
+  display: none;
 }
 .nav-link:hover,
 .nav-link:active,
