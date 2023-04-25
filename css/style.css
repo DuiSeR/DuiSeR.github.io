@@ -17,6 +17,9 @@ a {
 
 /* header start*/
 
+.mini-logo-header {
+  visibility: hidden;
+}
 .container-header {
   display: flex;
   justify-content: space-between;
@@ -27,13 +30,21 @@ a {
   display: flex;
 }
 .nav > ul > a > li {
-  margin-right: 45px;
   font-weight: 500;
   line-height: 14px;
   font-weight: 500;
 }
 .nav-link {
   color: #0e0e0e;
+  margin-right: 45px;
+}
+.nav-link:first-child {
+  /* color: #7e99ec; */
+}
+.nav-link:hover,
+.nav-link:active,
+.nav-link:focus {
+  color: #7e99ec;
 }
 .nav-content {
   display: flex;
@@ -47,6 +58,52 @@ a {
   border-radius: 30px;
   padding: 15px 25px;
 }
+.link-connect:hover,
+.link-connect:active,
+.link-connect:focus {
+  color: #ffffff;
+  background: #7e99ec;
+}
+/*///burger///*/
+.open {
+  display: flex !important;
+}
+.burger {
+  width: 40px;
+  height: 20px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  z-index: 50;
+  display: none;
+  cursor: pointer;
+}
+.burger::before,
+.burger::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  background: #ffffff;
+  left: 0;
+  transition: all 0.3s ease 0s;
+}
+.burger::before {
+  top: 0;
+}
+.burger::after {
+  bottom: 0;
+}
+.burger.active::before {
+  top: 50%;
+  transform: rotate(-45deg) translate(0, -50%);
+}
+.burger.active::after {
+  bottom: 50%;
+  transform: rotate(45deg) translate(0, 50%);
+}
+/*/ //burger///*/
 
 /* header end*/
 
@@ -89,6 +146,14 @@ a {
   border-radius: 30px;
   margin-top: 80px;
   display: inline-block;
+  border: 2px solid #ffffff;
+}
+.link-applic:hover,
+.link-applic:active,
+.link-applic:focus {
+  color: #7e99ec;
+  background: #ffffff;
+  border: 2px solid #7e99ec;
 }
 
 /* section application end*/
@@ -239,3 +304,5 @@ a {
   grid-row: 5/6;
   grid-column: 5/11;
 }
+
+/* section stage end*/

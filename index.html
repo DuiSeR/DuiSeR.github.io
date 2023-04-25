@@ -6,12 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/css/reset.css" />
     <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/media.css" />
     <title>Document</title>
   </head>
   <body>
     <header>
       <div class="container container-header">
-        <a href="/"><img src="/img/logo-header.png" alt="logo" /></a>
+        <a class="logo-header" href="/"
+          ><img src="/img/logo-header.png" alt="logo"
+        /></a>
+        <a class="mini-logo-header" href="/"
+          ><img src="/img/mini-logo-header.png" alt="logo"
+        /></a>
         <div class="nav-content">
           <nav class="nav">
             <ul>
@@ -30,6 +36,7 @@
             </ul>
           </nav>
           <a href="/" class="link-connect">Связаться с нами</a>
+          <div class="burger"></div>
         </div>
       </div>
     </header>
@@ -46,7 +53,7 @@
             <a href="/" class="link-applic">Оставить заявку</a>
           </div>
           <div class="logo-right">
-            <img src="img/logo-applic.png" alt="..." />
+            <img class="logo-right-pic" src="img/logo-applic.png" alt="..." />
           </div>
         </div>
       </section>
@@ -168,5 +175,7 @@
         </div>
       </section>
     </main>
+
+    <script src="/main.js"></script>
   </body>
 </html>
