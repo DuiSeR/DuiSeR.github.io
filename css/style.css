@@ -30,7 +30,6 @@ a {
   display: flex;
 }
 .nav > ul > a > li {
-  font-weight: 500;
   line-height: 14px;
   font-weight: 500;
 }
@@ -122,6 +121,12 @@ a {
 }
 .logo-right {
   max-width: 45%;
+}
+.logo-media-pic{
+  display: none;
+}
+.logo-right-pic {
+  width: 100%;
 }
 .applic-title {
   font-weight: 600;

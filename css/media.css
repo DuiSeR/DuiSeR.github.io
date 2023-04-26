@@ -1,14 +1,12 @@
-/* header */
-
-@media (max-width: 1212px) {
+@media (max-width: 1220px) {
   .container {
     width: 90vw;
   }
+
+  /* header start */
+
   .nav-link {
     margin-right: 20px;
-  }
-  .logo-right {
-    display: none;
   }
 }
 @media (max-width: 1024px) {
@@ -25,8 +23,6 @@
   .mini-logo-header {
     visibility: visible;
   }
-}
-@media (max-width: 1024px) {
   .burger {
     display: flex;
   }
@@ -53,8 +49,11 @@
     row-gap: 30px;
     position: absolute;
     top: 150px;
-    left: 43%;
+    left: 42%;
     align-items: center;
+  }
+  .nav > ul > a > li {
+    font-size: 20px;
   }
   .nav-link {
     margin: 0;
@@ -66,28 +65,92 @@
 }
 @media (max-width: 768px) {
   .nav ul {
-    left: 42%;
+    left: 40%;
   }
 }
 @media (max-width: 650px) {
   .nav ul {
-    left: 41%;
+    left: 37%;
   }
 }
 @media (max-width: 600px) {
   .nav ul {
-    left: 40%;
+    left: 37%;
   }
 }
 @media (max-width: 500px) {
   .nav ul {
-    left: 37%;
+    left: 34%;
+  }
+}
+@media (max-width: 425px) {
+  .nav ul {
+    left: 32%;
   }
 }
 @media (max-width: 375px) {
   .nav ul {
-    left: 30%;
+    left: 27%;
   }
 }
+@media (max-width: 320px) {
+  .nav ul {
+    left: 25%;
+  }
+}
+/* header end */
 
-/* header */
+/*application start*/
+@media (max-width: 1024px) {
+  .container-applic {
+    margin: 100px auto 100px;
+  }
+  .info-left {
+    max-width: 50%;
+  }
+  .applic-title {
+    font-size: 30px;
+  }
+  .applic-title > span {
+    font-size: 35px;
+  }
+}
+@media (max-width: 810px) {
+  .applic-title {
+    font-size: 25px;
+  }
+  .applic-title > span {
+    font-size: 30px;
+  }
+}
+@media (max-width: 676px) {
+  .info-left {
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .logo-right {
+    display: none;
+  }
+  .logo-media-pic {
+    display: block;
+    width: 60%;
+    margin: 20px auto 30px;
+  }
+  .applic-title {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .applic-title > span {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  .link-applic {
+    margin: 0 auto;
+  }
+}
+/*application end*/
+
+/*service start*/
+
+/*service end*/
