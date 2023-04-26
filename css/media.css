@@ -152,5 +152,54 @@
 /*application end*/
 
 /*service start*/
-
+@media (max-width: 1420px) {
+  .services-info {
+    width: 50%;
+  }
+}
+@media (max-width: 1024px) {
+  .services-info {
+    width: 100%;
+  }
+}
+@media (max-width: 580px) {
+  .service-title__item {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .service-par__item {
+    font-size: 14px;
+  }
+}
+@media (max-width: 515px) {
+  .service-title__item {
+    font-size: 15px;
+    line-height: 20px;
+    padding-bottom: 5px;
+  }
+  .service-par__item {
+    font-size: 11px;
+    line-height: 16px;
+  }
+  .service-info__wrapper-pic {
+    width: 100px;
+  }
+  .services-info {
+    padding: 10px;
+    background: url(../img-service/bg-1.svg) no-repeat center left;
+    background-size: 100px;
+  }
+  .services-info__right {
+    background: url(../img-service/bg-2.svg) no-repeat center right;
+    background-size: 100px;
+  }
+  .service-info__wrapper-right {
+    padding-left: 10px;
+    width: 60%;
+  }
+  .service-info__wrapper-left {
+    padding-right: 10px;
+    width: 60%;
+  }
+}
 /*service end*/
