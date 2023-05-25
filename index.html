@@ -202,6 +202,128 @@
           </div>
         </div>
       </section>
+
+      <section class="form">
+        <div class="container container-form">
+          <div class="titles title-form">
+            <h2 class="title__wrapper title__wrapper-form">Связаться с нами</h2>
+          </div>
+
+          <div class="container-form-info">
+            <div class="form-application">
+              <h3 class="title-form-applic">Оставьте заявку</h3>
+              <form action="#" method="post" enctype="multipart/form-data">
+                <div class="input">
+                  <input
+                    class="input-wrapper"
+                    placeholder="Введите ваше имя"
+                    type="text"
+                    name="username"
+                    value=""
+                    required
+                  />
+                </div>
+                <div class="input input-select">
+                  <input
+                    class="input-wrapper input-wrapper-select"
+                    id="service-input"
+                    type="text"
+                    placeholder="Выберите услугу..."
+                  />
+
+                  <div class="dropdown-select">
+                    <ul class="dropdown-list">
+                      <li class="dropdown-item" id="development">
+                        Разработка сайтов
+                      </li>
+                      <li class="dropdown-item" id="bot">Чат-бот</li>
+                      <li class="dropdown-item" id="design">Дизайн</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="input input-select">
+                  <input
+                    class="input-wrapper input-wrapper-select"
+                    id="communication-input"
+                    type="text"
+                    placeholder="Выберите спсоб связи..."
+                  />
+
+                  <div class="dropdown-select">
+                    <ul class="dropdown-list">
+                      <li class="dropdown-item" id="mail">Почта</li>
+                      <li class="dropdown-item" id="phone">Телефон</li>
+                      <li class="dropdown-item" id="messenger">Мессенджер</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="input input-area">
+                  <textarea
+                    rows="5"
+                    class="input-wrapper input-wrapper-area"
+                    placeholder="Кратко опишите ваш проект..."
+                    name="area"
+                    cols="30"
+                    rows="10"
+                  ></textarea>
+                </div>
+
+                <div class="input input-file">
+                  <label class="label-file"
+                    >Припрепить файл
+                    <input
+                      class="input-wrapper input-wrapper-file"
+                      type="file"
+                    />
+                  </label>
+                </div>
+
+                <div class="input input-button">
+                  <button
+                    class="input-wrapper input-wrapper-button"
+                    type="submit"
+                  >
+                    Оставить заявку
+                  </button>
+                </div>
+              </form>
+
+              <div class="form-info-bottom">
+                <p class="form-info-bottom_wrapper">
+                  Нажимая на кнопку, вы соглашаетесь с<br />
+                  <a href="/" class="form-info-bottom-link_wrapper">
+                    Обработкой персональных данных
+                  </a>
+                </p>
+              </div>
+            </div>
+
+            <div class="form-connect">
+              <h3 class="title-form-applic">Напишите нам</h3>
+              <div class="connect-mail">
+                <h4 class="connect-mail_wrapper">nohotdickpic@yanix.com</h4>
+              </div>
+              <div class="connect-phone">
+                <a href="tel:+380689664526" class="connect-phone-link"
+                  >+38 068 966 45 26</a
+                >
+              </div>
+              <div class="connect-links">
+                <a class="connect-link" href="/"
+                  ><img class="connect-link_wrapper" src="/img/form-icon-vk.png" alt="..." /></a
+                ><a class="connect-link" href="/"
+                  ><img class="connect-link_wrapper" src="/img/form-icon-inst.png" alt="..." /></a
+                ><a class="connect-link" href="/"
+                  ><img class="connect-link_wrapper" src="/img/form-icon-tg.png" alt="..."
+                /></a>
+              </div>
+              <img class="connect-pic" src="/img/connect-pic.svg" alt="...">
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
 
     <script src="/main.js"></script>
